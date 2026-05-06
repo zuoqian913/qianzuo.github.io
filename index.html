@@ -180,6 +180,17 @@ ol.paper-list li, ul.clean-list li {
   font-family: Arial, "Microsoft YaHei", sans-serif;
   letter-spacing: 0;
 }
+  .visit-counter {
+  margin-top: 2px;
+  color: #5b6470;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.visit-counter .visit-number {
+  font-weight: 700;
+  color: #3f4650;
+  padding: 0 2px;
+}
 @media (max-width: 940px) {
   .nav { padding-left: 24px; gap: 22px; flex-wrap: wrap; }
   .main {
@@ -236,6 +247,7 @@ ol.paper-list li, ul.clean-list li {
         <li><span class="icon">📍</span><span>安徽大学(磬苑校区)，人文B楼 B507</span></li>
        <li><span class="icon">✉️</span><span class="plain-email">qianzuo@ahu.edu.cn</span></li>
         <li><span class="icon">🔗</span><span><a href="https://qianzuo.github.io/" target="_blank" rel="noopener">个人主页</a></span></li>
+        <li class="visit-counter"><span class="icon">👁️</span><span>主页访问量：<span id="busuanzi_value_site_pv" class="visit-number">--</span> 次</span></li>
       </ul>
     </aside>
 
@@ -366,5 +378,6 @@ ol.paper-list li, ul.clean-list li {
     </main>
   </div>
 </div>
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
